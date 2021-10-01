@@ -4,8 +4,8 @@
 
 # DEV NOTES:
 
-Run npm install
-Run npm start to start server at 3434
+- Run npm install
+- Run npm start to start server at 3434
 
 I attempted to answer both questions on one repository. The first one is answered in the route /people. I'm taking advantage of express's middleware pattern to take the id, check if it is valid (sorry - really very rudimentory check - I could potentially have finished the database section and had a user table with credentials and perhaps done something more elaborate with sessions etc - I ran out of time and just wanted to submit it by Friday). I also wanted to set up a more elaborate error handler with a log property for logging error on the console for the dev and another property more suited/tailored for error to return to client.
 
