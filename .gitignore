@@ -1,3 +1,4 @@
+// files to not commit
 .env
 node_modules
 package-lock.json
